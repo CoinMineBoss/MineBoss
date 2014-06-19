@@ -1,5 +1,6 @@
 <WorkspaceItem ctype="Workspace">
   <Items>
     <Item>MineBoss Service\MineBoss Service.sln</Item>
+    <Item>DatabaseAccess\DatabaseAccess.sln</Item>
   </Items>
 </WorkspaceItem>
