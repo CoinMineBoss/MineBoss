@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBservice", "MBservice\MBservice.csproj", "{319CC2BC-F5C7-419A-B7B4-2DB4505FC2C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnTest", "ConnTest\ConnTest.csproj", "{BE7D4DB3-1C12-41A2-960C-177C9773CD18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{319CC2BC-F5C7-419A-B7B4-2DB4505FC2C8}.Debug|x86.Build.0 = Debug|x86
 		{319CC2BC-F5C7-419A-B7B4-2DB4505FC2C8}.Release|x86.ActiveCfg = Release|x86
 		{319CC2BC-F5C7-419A-B7B4-2DB4505FC2C8}.Release|x86.Build.0 = Release|x86
+		{BE7D4DB3-1C12-41A2-960C-177C9773CD18}.Debug|x86.ActiveCfg = Debug|x86
+		{BE7D4DB3-1C12-41A2-960C-177C9773CD18}.Debug|x86.Build.0 = Debug|x86
+		{BE7D4DB3-1C12-41A2-960C-177C9773CD18}.Release|x86.ActiveCfg = Release|x86
+		{BE7D4DB3-1C12-41A2-960C-177C9773CD18}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = MBservice\MBservice.csproj
