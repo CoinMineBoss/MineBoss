@@ -24,14 +24,44 @@ namespace MineBoss.DatabaseAccess
 {
     public class Database
     {
+        private string _dbPort = "3306";
+        private string _dbHost = "localhost";
+
         public string dbName
         {
             get;
             set;
         }
 
+        public string dbUser
+        {
+            get;
+            set;
+        }
+
+        public string dbPassword
+        {
+            get;
+            set;
+        }
+
+        public string dbHost
+        {
+            get;
+            set;
+        }
+
+        public string dbPort
+        {
+            get;
+            set;
+        }
+
+
         public Database()
         {
+            dbConn = new MySql.Data.MySqlClient.MySqlConnection(;
+            dbConn.
         }
     }
 }
