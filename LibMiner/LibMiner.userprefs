@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Miner\Pool.cs">
+    <Files>
+      <File FileName="..\DatabaseAccess\Database.cs" Line="31" Column="10" />
+      <File FileName="..\MineBoss Service\ConnTest\Program.cs" Line="25" Column="1" />
+      <File FileName="..\LibCGminer\LibCGminer\CGminer.cs" Line="86" Column="9" />
+      <File FileName="Miner\Miner.cs" Line="22" Column="15" />
+      <File FileName="Miner\Pool.cs" Line="28" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

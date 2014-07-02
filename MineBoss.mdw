@@ -3,5 +3,6 @@
     <Item>MineBoss Service\MineBoss Service.sln</Item>
     <Item>DatabaseAccess\DatabaseAccess.sln</Item>
     <Item>LibCGminer\LibCGminer.sln</Item>
+    <Item>LibMiner\LibMiner.sln</Item>
   </Items>
 </WorkspaceItem>
