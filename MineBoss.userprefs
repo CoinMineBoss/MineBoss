@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DatabaseAccess\Database.cs">
     <Files>
       <File FileName="DatabaseAccess\Database.cs" Line="31" Column="10" />
     </Files>

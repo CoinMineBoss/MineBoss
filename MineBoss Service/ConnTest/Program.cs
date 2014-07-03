@@ -21,7 +21,7 @@
 using System;
 using System.Configuration;
 using System.Net.Sockets;
-using MineBoss.DatabaseAcess;
+using MineBoss.DatabaseAccess;
 
 namespace MineBoss.ConnTest
 {
