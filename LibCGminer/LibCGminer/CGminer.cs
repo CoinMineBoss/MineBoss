@@ -19,8 +19,10 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
+using System.Collections.Generic;
 using System.Net.Sockets;
 using Newtonsoft.Json;
+using Mineboss.LibMiner;
 
 namespace MineBoss.LibCGminer
 {
@@ -58,6 +60,7 @@ namespace MineBoss.LibCGminer
          *      F - Fatal (code bug)
         */
 
+        #region Constructor
         public CGminer(string hostname, string port)
         {
             this.hostname = hostname;
@@ -68,6 +71,7 @@ namespace MineBoss.LibCGminer
         {
 
         }
+        #endregion
 
 #region version
         /* CMD: version
@@ -77,10 +81,11 @@ namespace MineBoss.LibCGminer
         public string version()
         {
             string c = "version";
-            string v = null;
-            return v;
+            string r = null;
+            return r;
         }
 #endregion
+
 #region config
         /* CMD: config
          * RET: CONFIG
@@ -98,14 +103,29 @@ namespace MineBoss.LibCGminer
          * Queue=N, <- --queue setting
          * Expiry=N| <- --expiry setting
          */
+        public string config()
+        {
+            string c = "config";
+            string r = null;
+            return r;
+        }
 
-        #endregion
+#endregion
 //            summary       SUMMARY        The status summary of the miner
 //            e.g. Elapsed=NNN,Found Blocks=N,Getworks=N,...|
 //
-//        pools         POOLS          The status of each pool e.g.
-//        Pool=0,URL=http://pool.com:6311,Status=Alive,...|
-//
+        #region
+        /* CMD: pools
+         * RET: POOLS
+         * DESC: The status of each pool
+         */
+        public List<Pool> pools()
+        {
+            string c = "pools";
+            List<Pool> p = null;
+            return p;
+        }
+        #endregion
 //            devs          DEVS           Each available PGA and ASC with their details
 //            e.g. ASC=0,Accepted=NN,MHS av=NNN,...,Intensity=D|
 //            Last Share Time=NNN, <- standand long time in sec
