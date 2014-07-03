@@ -60,8 +60,8 @@ namespace MineBoss.DatabaseAccess
 
         public Database()
         {
-            dbConn = new MySql.Data.MySqlClient.MySqlConnection(;
-            dbConn.
+            //            dbConn = new MySql.Data.MySqlClient.MySqlConnection(;
+            //dbConn.
         }
     }
 }
